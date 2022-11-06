@@ -6,6 +6,9 @@ from selenium.webdriver.common.by import By
 
 
 
+
+
+
 def main():
     options = webdriver.ChromeOptions()
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
